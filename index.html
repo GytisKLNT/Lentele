@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title>Lentele</title>
+  </head>
+  <body>
+    <h1>Append table</h1>
+    <!-- Inputai -->
+    <div class="inputai">
+      <input id="inputValueVardas" type="text" name="vardas" placeholder="Vardas"  required>
+      <input id="inputValuePavarde" type="text" name="pavarde" placeholder="Pavardė"  required>
+      <input id="inputValueMetai" type="number" name="metai" placeholder="Metai" min=1 max=120  required>
+    </div>
+
+    <!-- Mygtukai -->
+
+    <div class="Mygtukai">
+      <button id="add" type="button" name="prideti">Pridėti</button>
+      <button id="removeFirst" type="button" name="deleteFirst">Ištrinti pirmą</button>
+      <button id="removeLast" type="button" name="deleteLast">Ištrinti paskutinį</button>
+
+    </div>
+<!-- Lentelė -->
+<table id="info">
+     <tr>
+       <th>VARDAS</th>
+       <th class="pav">PAVARDĖ</th>
+       <th>AMŽIUS</th>
+     </tr>
+     <tr>
+       <td>Jonas</td>
+       <td>Rimkus</td>
+       <td>54</td>
+     </tr>
+     <tr>
+       <td>Vestina</td>
+       <td>Petronytė</td>
+       <td>31</td>
+     </tr>
+     <tr>
+       <td>Marius</td>
+       <td>Dulinskas</td>
+       <td>23</td>
+     </tr>
+   </table>
+
+    <script src="script.js"></script>
+  </body>
+</html>

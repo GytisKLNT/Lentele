@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  margin: 10px;
+}
+
+table{
+
+  text-align: center;
+  border: 3px solid gold;
+  border-collapse: collapse;
+  margin: 50px;
+  width:600px;
+  font-size: 25px;
+  font-family: Roboto;
+}
+td, tr{
+  border: 1px solid gold;
+  padding: 20px;
+  background: #150050;
+  color: white;
+  text-transform: capitalize;
+
+}
+th{
+  padding: 10px;
+  background: gold;
+  color: black;
+
+}
+.pav{
+  background: #FFC93C;
+}
+
+.inputai{
+margin-left: 50px;
+width: 610px;
+display: flex;
+
+
+}
+input{
+
+  width: 200px;
+  margin: 2px;
+
+}
+.Mygtukai{
+margin-left: 50px;
+width: 610px;
+display: flex;
+margin-top: 20px;
+
+
+}
+button{
+
+  width: 200px;
+  margin: 2px;
+}
